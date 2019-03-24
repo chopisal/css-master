@@ -1,0 +1,20 @@
+{
+  "name": "css-master",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel grid.html"
+  },
+  "author": "",
+  "description": "",
+  "dependencies": {
+    "postcss-preset-env": "^6.6.0"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      }
+    }
+  }
+}
